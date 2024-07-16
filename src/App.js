@@ -48,7 +48,7 @@ function App() {
       />
       <productlist products={products} />
       <div>
-        <h2>Fetched Products (Console Log)</h2>
+        <h2>Fetched Products</h2>
         <pre>{JSON.stringify(products, null, 2)}</pre>
       </div>
     </div>

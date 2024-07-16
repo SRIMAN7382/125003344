@@ -1,4 +1,4 @@
-export const getclientcredentials = async () => {
+export const getcredentials = async () => {
     try {
       console.log('Starting registration request...');
       const response = await fetch('http://20.244.56.144/test/register', {
@@ -11,7 +11,7 @@ export const getclientcredentials = async () => {
           "ownerName": "Rahul",
           "rollNo": "1",
           "ownerEmail": "rahul@abc.edu",
-          "accessCode": "FKDLjg",
+          "accessCode": "LGcHvG",
           "token_type":"Bearer"
         })
       });
